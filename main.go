@@ -1,15 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"test-github/order"
+)
 
 func main() {
 
-	Order()
-
-}
-
-func Order() {
-
-	fmt.Println("ODER")
+	order.Order()
 
 }
