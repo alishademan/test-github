@@ -1,15 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"test-github/login"
+)
 
 func main() {
 
-	Login()
-
-}
-
-func Login() {
-
-	fmt.Println("LOGIN")
+	login.Login()
 
 }
